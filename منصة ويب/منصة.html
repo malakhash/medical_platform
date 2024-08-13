@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+    <div id="left">
+        <a href="javascript:void(0)" class="btn-area" onclick="closeBtn()">&times;</a>
+        <div class="main">
+            <a href="#">مقدمة</a>
+           <a href="#about">منصتنا</a>
+           <a href="#article">مقالات </a>   
+          <a href="#services">خدماتنا</a>  
+          <a href="#subscription">للاشتراك</a>  
+        </div>
+    </div>
+    <span onclick="openBtn()">&#9776 القائمة</span>
+        <div class="home">
+            <div class="box">
+                <p> منصة إلكترونية لتقديم خدمات الرعاية الصحية بطريقة سهلة وآمنة، يمكنك من خلالها البحث عن أفضل الأطباء وحجز موعد</p>
+
+            </div>
+        </div>
+    <div id="about" class="about">
+        <div class="box">
+            <h2>منصة اطباء</h2>
+            <p>نقدم الحل البديل الذي يساعد الاطباء والكوادر الطبية للتواصل مع المرضى وتخفيف العبء عليهم .. يمكن تبشبية المنصة الطبية بزيارة افتراضية يقوم به المريض ليلتقي بالطبيب عبر الفيديو او المكالمة الصوتية او الرسائل النصية بشكل سلس من دون اي تعقيد وتوفر المنصة خدمات استشارية وحجوزات الاطباء عن بعد  وتوفر قيود وضوابط بهدف الخصوصية وسريه المعلومات </p>
+        </div>
+    </div>
+
+    <div id="services" class="services">
+        <div class="box">
+            <h2> خدماتنا</h2>
+            <p> 
+                <ul>
+                    <li> توفير الاستشارات والعناية لمن يعاني من امراض مزمنة مثل مرضى السكري وامراض القلب</li>
+                    <li>توفير الاستشارات عن بعد للحالات غير طارئة مثل تعديل الجرعات وتجديد الوصفة الطبية</li>
+                    <li>امكانية تشخيص بعض الحالات التي تعاني من اعراض طفيفة والتعامل معها بحسب الاولوية</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div id="subscription" class="subscription">
+        <div class="box">
+            <h2>للاشتراك</h2>
+
+            <p> 
+
+<div class="from-area">
+    <div class="wrapper">
+        <form>
+           <label for="name">ادخل الاسم الاول  </label>
+            <input type="text" placeholder="enter first name " id="name">
+            <br>
+            <label for="lname"> ادخل الاسم الاخير </label>
+            <input type="text" placeholder="enter last name " id="lname">
+            <br>
+            <label for="email"> ادخل الايميل </label>
+            <input type="email" placeholder="enter Email " id="email">
+            <br>
+           
+            <a href="#">تم</a>
+        </form>
+    </div>
+    </p>
+        </div>
+   
+    <div id="article" class="article">
+        <div class="box">
+            <h2>المقالات الطبية</h2>
+                      <div class="single-price">
+                          <div class="deal-top">
+                              <h3>السكري</h3>
+                              
+                          </div>
+                          <div class="deal-bottom">
+                              <ul class="deal-item">
+                                  <li>تحدث الاصابة بمرض السكري بسبب تناقص افراز هرمون الانسولين أو تراجع قدرة الجسم على استخدامه بفعالية ممايؤدي إلى تراكم الجلكوز أو السكر في الدم</li>
+                              </ul>
+                            
+                              </div>
+                          </div>
+     
+                      <div class="single-price"> 
+                          <div class="deal-top"> 
+                              <h3>أمراض القلب والاوعية الدموية</h3> 
+                              
+                          </div>
+                          <div class="deal-bottom">
+                              <ul class="deal-item">
+                                  <li>يمكن الوقاية منها من خلال التصدي لعوامل الخطر مثل تعاطي التبغ والنظام الغذائي غير الصحي والسمنة والحمول البدني وتعاطي الكحول </li>
+                              </ul>
+                          </div>
+                      </div>
+
+                      <div class="single-price">
+                          <div class="deal-top">
+                              <h3>الوقاية من كورونا</h3>
+                              
+                          </div>
+                          <div class="deal-bottom">
+                              <ul class="deal-item">
+                                  <li> تلقي اللقاح تجنب مخالظة المرضى الحفاظ على مسافة فاصلة بينك وبين الاخرين في الاماكن المزدحمة والمغلغة </li>
+                              </ul>
+                            
+                          </div>
+                      </div>
+                  
+                  
+
+    <script> 
+    function openBtn(){
+        document.getElementById("left").style.width ="250px"
+    }
+    function closeBtn(){
+        document.getElementById("left").style.width ="0"
+    }
+    </script>
+</body>
+</html>

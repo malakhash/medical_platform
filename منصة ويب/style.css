@@ -1,0 +1,235 @@
+body {
+    font-family: impact;
+}
+html{
+    scroll-behavior: smooth;
+}
+#left{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(117 117 117);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.main{
+    margin-top: 70px;
+}
+.main a{
+    margin-bottom: 15px;
+}
+.home,
+.about,
+.services,
+.subscription,
+.article
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.about h2,
+.article h2,
+.subscription h2 {
+    font-family:revert ;
+     line-height:0.4;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(117 117 117);
+}
+.home p,
+.about p,
+.article p,
+.subscription p{
+    font-family: montserrat;
+     font-size: 25px;
+    width: 60%;
+    line-height:2;
+    text-align: center;
+    margin: auto;
+}
+.home {
+
+    background-image: url(1464093260_med-1440x960.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.home:after{
+    position: absolute;
+    content:'' ;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.home p{
+    color: #fff;
+
+}
+#left a{
+    padding: 6px 6px 6px 4px;
+    font-size: 20px;
+    color: #f0eded;
+    display: block;
+    text-align: center;
+}
+
+#left a.btn-area{ 
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+}
+span {
+    position: fixed;
+    right: 90px;
+    top: 30;
+    font-size: 35px;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 5;
+    color:rgb(3 26 41);
+}
+.about {
+
+    background-image: url(e238df141b8d4b06a4b13f69ca96bb8b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.about:after{
+    position: absolute;
+    content:'' ;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.about p{
+    color: #fff;
+
+}
+.services {
+
+    background-image: url(8cdcebb3600968cea47cc1eabe3f194f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.services h2{
+      font-family:revert ;
+     line-height:0.4;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(117 117 117);
+}
+.services ul{
+     font-size: 30px;
+    color:#f3eeee;
+}
+.services:after{
+    position: absolute;
+    content:'' ;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+
+.from-area{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        
+         }
+.wrapper{
+    background : rgb(117 117 117);
+  width: 400px;
+   height: 300px;
+    padding: 50px 30px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0,0,0.7);
+         }         
+         .wrapper label{
+             color:#fff;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+         }
+
+         .wrapper input
+         {color:#fff;
+             border: none;
+            border-bottom: 1px solid rgb(23 20 20);
+            background:rgb(117 117 117);
+            outline: none;
+            height: 40px;
+    font-size: 16px;
+    width: 100x;
+    margin-bottom: 20px;
+    
+         }
+         .wrapper a{
+    display:block;
+    text-align: center;
+    text-decoration: aqua;
+    color: #f6f4f8;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgb(117 117 117);;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+         }
+     
+        .single-price{
+            text-align:center;
+            background:#57575c;
+            transition:.7s;
+            margin-top:15px;
+            border-radius:100px;
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.6);
+        }
+        .deal-top h3{
+            font-size: 25px;
+            font-weight: 600px;
+            text-align: center;
+            margin: 0;
+            font-family: sans-serif;
+            color: #fff;
+            
+        }
+        .deal-top{
+            position: relative;
+            background: rgb(117 117 117);
+            text-transform: uppercase;
+            padding: 40px 10px 0;
+            transition: .7s;
+            border-radius: 100px 100px 0 0;
+        }
+    
+        .deal-bottom ul li{
+            font-size: 20px;
+            color: #FFFFFF;
+            font-weight:600px;
+            margin-top: 12px;
+            padding-top:12px;
+          
+            list-style: none;
+            
+        }
+        .deal-bottom ul{
+                margin: 20px;
+            padding:0;
+        }
+
+       
